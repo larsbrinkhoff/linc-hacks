@@ -2,6 +2,8 @@ Possible hacks for the LINC:
 
 - Hello world.
 - Munching squares.
+- Draw Lissajous curves.
+- Spirograph.
 - Lorenz attactor.
 - Speaker output amplitude modulation.
 - Forth.
