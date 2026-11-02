@@ -1,0 +1,27 @@
+[DIVIDE BY 10
+@20
+STA i
+#1A 0 [1A = x
+SCR 3
+COM
+STA i
+#1B 0 [1B = -(x >> 3)
+LDA
+1A    [A = x
+MUL   [x * 315
+ 4|1C
+STC 1A [1A = y >> 11
+ZTA    [A = product & 03777
+ADD #1B [A = A - (x >> 3)
+APO
+JMP #1D
+LDA
+1A
+[DONE
+#1D
+LDA
+1A
+ADD 1F
+[DONE
+#1C 315
+#1F 7776

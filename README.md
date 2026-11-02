@@ -10,3 +10,4 @@ Possible hacks for the LINC:
 - Lisp.
 - PDP-8 emulator.
 - LINC emulator on ITS.
+- Divide by constant 10.
